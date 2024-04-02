@@ -15,82 +15,690 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: JCBB_ 新加坡 01【vip1 】, server: gcdddd0005.likeone.lol, port: 51031, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 新加坡 02【vip1 】, server: gcdddd0001.likeone.lol, port: 51031, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 新加坡 03【vip1 】, server: gcdddd0003.likeone.lol, port: 51031, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 新加坡 01【vip2 】, server: gcdddd0002.likeone.lol, port: 51031, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 新加坡 04【vip1 】, server: gcdddd0003.likeone.lol, port: 58464, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: sg02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 新加坡 05【vip1】, server: gcdddd0005.likeone.lol, port: 58464, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: sg02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 新加坡 06【vip1】, server: gcdddd0001.likeone.lol, port: 58464, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: sg02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 新加坡 02【vip2】, server: gcdddd0002.likeone.lol, port: 58464, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: sg02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港01【vip1】, server: gcdddd0005.likeone.lol, port: 25974, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港02【vip1】, server: gcdddd0001.likeone.lol, port: 25974, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港03【vip1】, server: gcdddd0003.likeone.lol, port: 25974, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港01【vip2】, server: gcdddd0002.likeone.lol, port: 25974, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk05.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港04【vip1】, server: gcdddd0003.likeone.lol, port: 35257, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港05【vip1】, server: gcdddd0001.likeone.lol, port: 35257, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港06【vip1】, server: gcdddd0002.likeone.lol, port: 35257, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港 07【vip1】, server: gcdddd0003.likeone.lol, port: 26023, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港 08【vip1】, server: gcdddd0005.likeone.lol, port: 26023, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港 09【vip1】, server: gcdddd0001.likeone.lol, port: 26023, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港 07【vip2】, server: gcdddd0002.likeone.lol, port: 26023, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港10【vip1】, server: gcdddd0003.likeone.lol, port: 15485, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港12【vip1】, server: gcdddd0005.likeone.lol, port: 15485, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港13【vip1】, server: gcdddd0001.likeone.lol, port: 15485, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_香港11【vip2】, server: gcdddd0002.likeone.lol, port: 15485, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: hk04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_日本01【vip1】, server: gcdddd0005.likeone.lol, port: 10327, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_日本02【vip1】, server: gcdddd0001.likeone.lol, port: 10327, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_日本03【vip1】, server: gcdddd0003.likeone.lol, port: 10327, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_日本01【vip2 】, server: gcdddd0002.likeone.lol, port: 10327, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_日本04【vip1】, server: gcdddd0005.likeone.lol, port: 16483, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_日本05【vip1】, server: gcdddd0001.likeone.lol, port: 16483, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_日本06【vip1】, server: gcdddd0003.likeone.lol, port: 16483, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_日本02【vip2】, server: gcdddd0002.likeone.lol, port: 16483, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: jp03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 台湾 01【vip1】, server: gcdddd0001.likeone.lol, port: 64850, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: tw01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 台湾 02【vip1】, server: gcdddd0003.likeone.lol, port: 64850, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: tw01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 台湾 03【vip1】, server: gcdddd0005.likeone.lol, port: 64850, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: tw01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 台湾 01【vip2】, server: gcdddd0002.likeone.lol, port: 64850, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: tw01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 台湾 04【vip1】, server: gcdddd0005.likeone.lol, port: 47557, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: tw02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 台湾 05【vip1】, server: gcdddd0001.likeone.lol, port: 47557, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: tw02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 台湾 06【vip1】, server: gcdddd0003.likeone.lol, port: 47557, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: tw02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 台湾 02【vip2】, server: gcdddd0002.likeone.lol, port: 47557, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: tw02.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_马来西亚01【vip2】, server: gcdddd0001.likeone.lol, port: 47524, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: my01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_马来西亚02【vip2】, server: gcdddd0005.likeone.lol, port: 47524, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: my01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_马来西亚03【vip2】, server: gcdddd0003.likeone.lol, port: 47524, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: my01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_越南 01【vip1】, server: gcdddd0003.likeone.lol, port: 16343, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_越南 02【vip1】, server: gcdddd0005.likeone.lol, port: 16343, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_越南 03【vip1】, server: gcdddd0001.likeone.lol, port: 16343, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_越南 01【vip2】, server: gcdddd0002.likeone.lol, port: 16343, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: vn01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 印度01【vip1】, server: gcdddd0005.likeone.lol, port: 26094, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: id01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 印度02【vip1】, server: gcdddd0001.likeone.lol, port: 26094, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: id01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 印度03【vip1】, server: gcdddd0003.likeone.lol, port: 26094, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: id01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 印度01【vip2】, server: gcdddd0002.likeone.lol, port: 26094, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: id01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 英国01【vip1】, server: gcdddd0005.likeone.lol, port: 42840, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: uk01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 英国02【vip1】, server: gcdddd0001.likeone.lol, port: 42840, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: uk01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 英国03【vip1】, server: gcdddd0003.likeone.lol, port: 42840, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: uk01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 英国01【vip2】, server: gcdddd0002.likeone.lol, port: 42840, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: uk01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_德国01【vip1】, server: gcdddd0003.likeone.lol, port: 53279, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: de01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_德国02【vip1】, server: gcdddd0005.likeone.lol, port: 53279, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: de01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_德国03【vip1】, server: gcdddd0001.likeone.lol, port: 53279, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: de01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_德国01【vip2】, server: gcdddd0002.likeone.lol, port: 53279, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: de01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_澳大利亚01【vip2】, server: gcdddd0005.likeone.lol, port: 14932, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: aus01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_澳大利亚02【vip2】, server: gcdddd0001.likeone.lol, port: 14932, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: aus01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_土耳其 01【vip1】, server: gcdddd0001.likeone.lol, port: 60293, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_土耳其 02【vip1】, server: gcdddd0003.likeone.lol, port: 60293, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_土耳其 03【vip1】, server: gcdddd0005.likeone.lol, port: 60293, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_土耳其 01【vip2】, server: gcdddd0002.likeone.lol, port: 60293, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: tur01.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 美国01【vip1】, server: gcdddd0001.likeone.lol, port: 48560, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: us03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 美国02【vip1】, server: gcdddd0003.likeone.lol, port: 48560, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: us03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 美国01【vip2】, server: gcdddd0002.likeone.lol, port: 48560, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: us03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 美国02_1【vip1】, server: gcdddd0005.likeone.lol, port: 48560, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: us03.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 美国 03【vip1】, server: gcdddd0005.likeone.lol, port: 10658, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: us2.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 美国 04【vip1】, server: gcdddd0003.likeone.lol, port: 10658, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: us2.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 美国 02【vip2】, server: gcdddd0002.likeone.lol, port: 10658, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: us2.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_ 美国 04_1【vip1】, server: gcdddd0001.likeone.lol, port: 10658, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: us2.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_美国05_1【vip1】, server: gcdddd0005.likeone.lol, port: 26681, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_美国05【vip1】, server: gcdddd0003.likeone.lol, port: 26681, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_美国06【vip1】, server: gcdddd0001.likeone.lol, port: 26681, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
-  - {name: JCBB_美国03【vip2】, server: gcdddd0002.likeone.lol, port: 26681, client-fingerprint: chrome, type: trojan, password: c41b0b0b-d089-431e-8173-d7ea549f5209, sni: us04.ckcloud.info, skip-cert-verify: true, udp: true}
+  - name: JCBB_ 新加坡 01【vip1 】
+    server: gcdddd0005.likeone.lol
+    port: 51031
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: sg01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 新加坡 02【vip1 】
+    server: gcdddd0001.likeone.lol
+    port: 51031
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: sg01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 新加坡 03【vip1 】
+    server: gcdddd0003.likeone.lol
+    port: 51031
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: sg01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 新加坡 01【vip2 】
+    server: gcdddd0002.likeone.lol
+    port: 51031
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: sg01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 新加坡 04【vip1 】
+    server: gcdddd0003.likeone.lol
+    port: 58464
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: sg02.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 新加坡 05【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 58464
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: sg02.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 新加坡 06【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 58464
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: sg02.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 新加坡 02【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 58464
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: sg02.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港01【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 25974
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk05.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港02【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 25974
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk05.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港03【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 25974
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk05.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港01【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 25974
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk05.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港04【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 35257
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk03.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港05【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 35257
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk03.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港06【vip1】
+    server: gcdddd0002.likeone.lol
+    port: 35257
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk03.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港 07【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 26023
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk02.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港 08【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 26023
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk02.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港 09【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 26023
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk02.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港 07【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 26023
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk02.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港10【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 15485
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk04.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港12【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 15485
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk04.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港13【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 15485
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk04.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_香港11【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 15485
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: hk04.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_日本01【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 10327
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: jp01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_日本02【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 10327
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: jp01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_日本03【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 10327
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: jp01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_日本01【vip2 】
+    server: gcdddd0002.likeone.lol
+    port: 10327
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: jp01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_日本04【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 16483
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: jp03.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_日本05【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 16483
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: jp03.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_日本06【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 16483
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: jp03.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_日本02【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 16483
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: jp03.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 台湾 01【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 64850
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: tw01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 台湾 02【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 64850
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: tw01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 台湾 03【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 64850
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: tw01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 台湾 01【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 64850
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: tw01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 台湾 04【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 47557
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: tw02.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 台湾 05【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 47557
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: tw02.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 台湾 06【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 47557
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: tw02.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 台湾 02【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 47557
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: tw02.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_马来西亚01【vip2】
+    server: gcdddd0001.likeone.lol
+    port: 47524
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: my01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_马来西亚02【vip2】
+    server: gcdddd0005.likeone.lol
+    port: 47524
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: my01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_马来西亚03【vip2】
+    server: gcdddd0003.likeone.lol
+    port: 47524
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: my01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_越南 01【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 16343
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: vn01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_越南 02【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 16343
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: vn01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_越南 03【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 16343
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: vn01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_越南 01【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 16343
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: vn01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 印度01【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 26094
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: id01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 印度02【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 26094
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: id01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 印度03【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 26094
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: id01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 印度01【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 26094
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: id01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 英国01【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 42840
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: uk01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 英国02【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 42840
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: uk01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 英国03【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 42840
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: uk01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 英国01【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 42840
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: uk01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_德国01【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 53279
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: de01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_德国02【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 53279
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: de01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_德国03【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 53279
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: de01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_德国01【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 53279
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: de01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_澳大利亚01【vip2】
+    server: gcdddd0005.likeone.lol
+    port: 14932
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: aus01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_澳大利亚02【vip2】
+    server: gcdddd0001.likeone.lol
+    port: 14932
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: aus01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_土耳其 01【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 60293
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: tur01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_土耳其 02【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 60293
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: tur01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_土耳其 03【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 60293
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: tur01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_土耳其 01【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 60293
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: tur01.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 美国01【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 48560
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: us03.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 美国02【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 48560
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: us03.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 美国01【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 48560
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: us03.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 美国02_1【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 48560
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: us03.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 美国 03【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 10658
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: us2.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 美国 04【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 10658
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: us2.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 美国 02【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 10658
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: us2.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_ 美国 04_1【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 10658
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: us2.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_美国05_1【vip1】
+    server: gcdddd0005.likeone.lol
+    port: 26681
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: us04.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_美国05【vip1】
+    server: gcdddd0003.likeone.lol
+    port: 26681
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: us04.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_美国06【vip1】
+    server: gcdddd0001.likeone.lol
+    port: 26681
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: us04.ckcloud.info
+    skip-cert-verify: true
+    udp: true
+  - name: JCBB_美国03【vip2】
+    server: gcdddd0002.likeone.lol
+    port: 26681
+    client-fingerprint: chrome
+    type: trojan
+    password: c41b0b0b-d089-431e-8173-d7ea549f5209
+    sni: us04.ckcloud.info
+    skip-cert-verify: true
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -474,10 +1082,6 @@ proxy-groups:
     proxies:
       - DIRECT
   - name: 🇭🇰 香港节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
     proxies:
       - JCBB_香港01【vip1】
       - JCBB_香港02【vip1】
@@ -494,11 +1098,10 @@ proxy-groups:
       - JCBB_香港12【vip1】
       - JCBB_香港13【vip1】
       - JCBB_香港11【vip2】
-  - name: 🇯🇵 日本节点
-    type: url-test
+    type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
+  - name: 🇯🇵 日本节点
     proxies:
       - JCBB_日本01【vip1】
       - JCBB_日本02【vip1】
@@ -508,18 +1111,16 @@ proxy-groups:
       - JCBB_日本05【vip1】
       - JCBB_日本06【vip1】
       - JCBB_日本02【vip2】
-  - name: 🇰🇷 韩国节点
-    type: url-test
+    type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
+  - name: 🇰🇷 韩国节点
     proxies:
       - DIRECT
-  - name: 🇺🇲 美国节点
-    type: url-test
+    type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 150
+  - name: 🇺🇲 美国节点
     proxies:
       - JCBB_ 美国01【vip1】
       - JCBB_ 美国02【vip1】
@@ -533,11 +1134,10 @@ proxy-groups:
       - JCBB_美国05【vip1】
       - JCBB_美国06【vip1】
       - JCBB_美国03【vip2】
-  - name: 🇨🇳 台湾节点
-    type: url-test
+    type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
+  - name: 🇨🇳 台湾节点
     proxies:
       - JCBB_ 台湾 01【vip1】
       - JCBB_ 台湾 02【vip1】
@@ -547,11 +1147,10 @@ proxy-groups:
       - JCBB_ 台湾 05【vip1】
       - JCBB_ 台湾 06【vip1】
       - JCBB_ 台湾 02【vip2】
-  - name: 🇸🇬 新加坡节点
-    type: url-test
+    type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
+  - name: 🇸🇬 新加坡节点
     proxies:
       - JCBB_ 新加坡 01【vip1 】
       - JCBB_ 新加坡 02【vip1 】
@@ -561,6 +1160,9 @@ proxy-groups:
       - JCBB_ 新加坡 05【vip1】
       - JCBB_ 新加坡 06【vip1】
       - JCBB_ 新加坡 02【vip2】
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 300
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -16736,7 +17338,8 @@ rules:
   - DOMAIN-SUFFIX,kytesconge.com,🆎 增强拦截
   - DOMAIN-SUFFIX,kytoonburlies.website,🆎 增强拦截
   - DOMAIN-SUFFIX,kyufqusjrt.com,🆎 增强拦截
-  - DOMAIN-SUFFIX,kz2oq0xm6ie7gn5dkswlpv6mfgci8yoe3xlqp12gjotp5fdjxs5ckztb8rzn.codes,🆎 增强拦截
+  - DOMAIN-SUFFIX,kz2oq0xm6ie7gn5dkswlpv6mfgci8yoe3xlqp12gjotp5fdjxs5ckztb8rzn.codes,🆎
+    增强拦截
   - DOMAIN-SUFFIX,kzkmmbrrzn.com,🆎 增强拦截
   - DOMAIN-SUFFIX,kzsfip3v.cfd,🆎 增强拦截
   - DOMAIN-SUFFIX,l1native.com,🆎 增强拦截
@@ -18951,7 +19554,8 @@ rules:
   - DOMAIN-SUFFIX,n19.biz,🆎 增强拦截
   - DOMAIN-SUFFIX,n33d0nem0re.com,🆎 增强拦截
   - DOMAIN-SUFFIX,n49seircas7r.com,🆎 增强拦截
-  - DOMAIN-SUFFIX,n7e4t5trg0u3yegn8szj9c8xjz5wf8szcj2a5h9dzxjs50salczs8azls0zm.com,🆎 增强拦截
+  - DOMAIN-SUFFIX,n7e4t5trg0u3yegn8szj9c8xjz5wf8szcj2a5h9dzxjs50salczs8azls0zm.com,🆎
+    增强拦截
   - DOMAIN-SUFFIX,n9s74npl.de,🆎 增强拦截
   - DOMAIN-SUFFIX,na4u.ru,🆎 增强拦截
   - DOMAIN-SUFFIX,naambonder.com,🆎 增强拦截
@@ -23443,7 +24047,8 @@ rules:
   - DOMAIN-SUFFIX,reheatmontia.com,🆎 增强拦截
   - DOMAIN-SUFFIX,rehonorflyoff.com,🆎 增强拦截
   - DOMAIN-SUFFIX,rehvbghwe.cc,🆎 增强拦截
-  - DOMAIN-SUFFIX,rei9jc56oyqux0rcpcquqmm7jc5freirpsquqkope3n3axrjacg8ipolxvbm.codes,🆎 增强拦截
+  - DOMAIN-SUFFIX,rei9jc56oyqux0rcpcquqmm7jc5freirpsquqkope3n3axrjacg8ipolxvbm.codes,🆎
+    增强拦截
   - DOMAIN-SUFFIX,reichelcormier.bid,🆎 增强拦截
   - DOMAIN-SUFFIX,reindaks.com,🆎 增强拦截
   - DOMAIN-SUFFIX,reinstandpointdumbest.com,🆎 增强拦截
@@ -30479,7 +31084,8 @@ rules:
   - DOMAIN-SUFFIX,xzzpagn.com,🆎 增强拦截
   - DOMAIN-SUFFIX,y3d3apip.buzz,🆎 增强拦截
   - DOMAIN-SUFFIX,y41my.com,🆎 增强拦截
-  - DOMAIN-SUFFIX,y8z5nv0slz06vj2k5vh6akv7dj2c8aj62zhj2v7zj8vp0zq7fj2gf4mv6zsb.me,🆎 增强拦截
+  - DOMAIN-SUFFIX,y8z5nv0slz06vj2k5vh6akv7dj2c8aj62zhj2v7zj8vp0zq7fj2gf4mv6zsb.me,🆎
+    增强拦截
   - DOMAIN-SUFFIX,yabacackler.com,🆎 增强拦截
   - DOMAIN-SUFFIX,yachtedacharne.website,🆎 增强拦截
   - DOMAIN-SUFFIX,yachtyflams.com,🆎 增强拦截
@@ -36421,7 +37027,8 @@ rules:
   - DOMAIN-SUFFIX,36a7wmjdcmso.my.gloryleague.basketball,🆎 增强拦截
   - DOMAIN-SUFFIX,3889082.dev.att.llabs.io,🆎 增强拦截
   - DOMAIN-SUFFIX,3935128650935608632.academyofconsciousleadership.org,🆎 增强拦截
-  - DOMAIN-SUFFIX,3988408442896783715.theacademyforconsciousleadership.com,🆎 增强拦截
+  - DOMAIN-SUFFIX,3988408442896783715.theacademyforconsciousleadership.com,🆎
+    增强拦截
   - DOMAIN-SUFFIX,3gl.net,🆎 增强拦截
   - DOMAIN-SUFFIX,3l0zszdzjhpw.www.comicleaks.com,🆎 增强拦截
   - DOMAIN-SUFFIX,3p-geo.yahoo.com,🆎 增强拦截
@@ -38524,7 +39131,8 @@ rules:
   - DOMAIN-SUFFIX,acridtwist.com,🆎 增强拦截
   - DOMAIN-SUFFIX,acro.egghead.link,🆎 增强拦截
   - DOMAIN-SUFFIX,acsbapp.com,🆎 增强拦截
-  - DOMAIN-SUFFIX,act-server-prod.7swnm9dm8q.eu-west-1.elasticbeanstalk.com,🆎 增强拦截
+  - DOMAIN-SUFFIX,act-server-prod.7swnm9dm8q.eu-west-1.elasticbeanstalk.com,🆎
+    增强拦截
   - DOMAIN-SUFFIX,act.firstdata.com,🆎 增强拦截
   - DOMAIN-SUFFIX,act.soneticscorp.com,🆎 增强拦截
   - DOMAIN-SUFFIX,act.wynk.in,🆎 增强拦截
@@ -44447,7 +45055,8 @@ rules:
   - DOMAIN-SUFFIX,ip.pichunter.com,🆎 增强拦截
   - DOMAIN-SUFFIX,ip.up66.ru,🆎 增强拦截
   - DOMAIN-SUFFIX,ip2c.landscape.co.jp,🆎 增强拦截
-  - DOMAIN-SUFFIX,ip7prksb2muxvmmh25t6rxl2te0tfulc.lambda-url.eu-west-1.on.aws,🆎 增强拦截
+  - DOMAIN-SUFFIX,ip7prksb2muxvmmh25t6rxl2te0tfulc.lambda-url.eu-west-1.on.aws,🆎
+    增强拦截
   - DOMAIN-SUFFIX,ipcfgw.pieces.com,🆎 增强拦截
   - DOMAIN-SUFFIX,ipcheck.blogsys.jp,🆎 增强拦截
   - DOMAIN-SUFFIX,ipixsi.aboutyou.fi,🆎 增强拦截
@@ -48022,7 +48631,8 @@ rules:
   - DOMAIN-SUFFIX,pixel.ampry.com,🆎 增强拦截
   - DOMAIN-SUFFIX,pixel.archipro.co.nz,🆎 增强拦截
   - DOMAIN-SUFFIX,pixel.archivecaslytosk.onion,🆎 增强拦截
-  - DOMAIN-SUFFIX,pixel.archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,🆎 增强拦截
+  - DOMAIN-SUFFIX,pixel.archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,🆎
+    增强拦截
   - DOMAIN-SUFFIX,pixel.augsburger-allgemeine.de,🆎 增强拦截
   - DOMAIN-SUFFIX,pixel.barion.com,🆎 增强拦截
   - DOMAIN-SUFFIX,pixel.biano.cz,🆎 增强拦截
@@ -48290,7 +48900,8 @@ rules:
   - DOMAIN-SUFFIX,porpoise.azettl.net,🆎 增强拦截
   - DOMAIN-SUFFIX,portal.dcgone.com,🆎 增强拦截
   - DOMAIN-SUFFIX,portal.krollontrack.co.uk,🆎 增强拦截
-  - DOMAIN-SUFFIX,posgrados-unisabana-edu-co-1207474081.p04.elqsandbox.com,🆎 增强拦截
+  - DOMAIN-SUFFIX,posgrados-unisabana-edu-co-1207474081.p04.elqsandbox.com,🆎
+    增强拦截
   - DOMAIN-SUFFIX,posgrados.unisabana.edu.co,🆎 增强拦截
   - DOMAIN-SUFFIX,possessivebucket.com,🆎 增强拦截
   - DOMAIN-SUFFIX,possibilities.theajinetwork.com,🆎 增强拦截
@@ -55116,7 +55727,8 @@ rules:
   - DOMAIN-SUFFIX,tr.notification-gdpr.domofinance.fr,🆎 增强拦截
   - DOMAIN-SUFFIX,tr.notification-gdpr.loisirs-finance.fr,🆎 增强拦截
   - DOMAIN-SUFFIX,tr.notification-gdpr.norrsken.fr,🆎 增强拦截
-  - DOMAIN-SUFFIX,tr.notification-gdpr.personal-finance-location.bnpparibas,🆎 增强拦截
+  - DOMAIN-SUFFIX,tr.notification-gdpr.personal-finance-location.bnpparibas,🆎
+    增强拦截
   - DOMAIN-SUFFIX,tr.notification-gdpr.sygmabybnpparibas-pf.com,🆎 增强拦截
   - DOMAIN-SUFFIX,tr.notification.cafineo.fr,🆎 增强拦截
   - DOMAIN-SUFFIX,tr.notification.cdiscount.com,🆎 增强拦截
