@@ -1,9 +1,9 @@
-port: 7890
-socks-port: 7891
+mixed-port: 7890
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+secret: bf153986-5f02-44f5-9f67-5b156605d009
+external-controller: 127.0.0.1:3165
 dns:
   enabled: true
   nameserver:
