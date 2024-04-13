@@ -1,6 +1,6 @@
 {
   "indexId": "4817456175163645749",
-  "subIndexId": "5353598443709243254",
+  "subIndexId": "5737897479357639938",
   "sysProxyType": 0,
   "systemProxyExceptions": "",
   "systemProxyAdvancedProtocol": null,
@@ -80,12 +80,12 @@
       },
       {
         "Name": "remarks",
-        "Width": 232,
+        "Width": 83,
         "Index": 1
       },
       {
         "Name": "address",
-        "Width": 288,
+        "Width": 284,
         "Index": 2
       },
       {
